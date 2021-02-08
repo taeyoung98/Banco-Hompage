@@ -1,0 +1,26 @@
+@import "~antd/dist/antd.css";
+
+.App-main {
+  background-color: burlywood;
+}
+.main__carousel img {
+  width: 100%;
+}
+
+.main__acton-golf {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  /* position: fixed;
+  top: 150px;
+  left: 500px; */
+}
+
+.main__ar-board-game {
+  height: 300px;
+  width: 300px;
+  background-color: pink;
+  /* position: fixed;
+  top: 300px;
+  left: 700px; */
+}

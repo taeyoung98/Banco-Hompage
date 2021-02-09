@@ -9,15 +9,14 @@
   position: fixed;
   z-index: 10;
 }
-.navigation {
+.App-header .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 350px;
   font-size: 14px;
-  /* position: fixed; */
 }
 
-.navigation__logo img {
-  max-height: 32px;
+.navigation .navigation__logo img {
+  max-width: 119px;
 }

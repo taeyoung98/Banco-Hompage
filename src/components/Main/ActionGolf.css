@@ -1,12 +1,3 @@
-.main__acton-golf {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 740px;
-  width: 100%;
-  /* background-color: white; */
-  padding-bottom: 10px;
-}
 div[class$="text-box"] {
   display: flex;
   flex-direction: column;

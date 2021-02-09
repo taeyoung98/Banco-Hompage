@@ -5,9 +5,6 @@ import "./ActionGolf.css";
 function ActionGolf() {
     return(
         <div className="main__acton-golf"> 
-
-
-
             <div className="action-golf__text-box">
                 <div className="action-golf__text-box-inside">
                     <img src="https://www.banco.id/res/img/banco_logo.png" alt="main__logo"/>
@@ -23,13 +20,10 @@ function ActionGolf() {
                     </p>
                 </div>
             </div>
-
-
             <div className="action-golf__image-box">
                 <img src={actionGolfImg1} alt="action-golf-1" />
                 <img src={actionGolfImg2} alt="action-golf-2" />
             </div>
-
       </div>
     )
 }

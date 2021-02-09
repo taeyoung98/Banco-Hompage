@@ -1,14 +1,23 @@
 import "./Main.css";
 import InitCarousel from "../components/Main/Carousel";
+import ActionGolf from "../components/Main/ActionGolf";
 
 
 function Main() {
     return( 
       <main className="App-main">
-
         <InitCarousel></InitCarousel>
+        <ActionGolf></ActionGolf>
+        <ActionGolf></ActionGolf>
+        <ActionGolf></ActionGolf>
+        <ActionGolf></ActionGolf>
+        <ActionGolf></ActionGolf>
+        <ActionGolf></ActionGolf>
+        <ActionGolf></ActionGolf>
 
-        <div className="main__acton-golf">action golf</div>
+      
+
+
         <div className="main__ar-board-game">ar 승람도</div>
         <div className="main__hologram">홀로그램, vr, ar</div>
         <div className="main__business">배너</div>

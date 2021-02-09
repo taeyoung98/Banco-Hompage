@@ -1,0 +1,47 @@
+.main__acton-golf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 740px;
+  width: 100%;
+  /* background-color: white; */
+  padding-bottom: 10px;
+}
+div[class$="text-box"] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 43%;
+}
+div[class$="text-box"] img[alt="main__logo"] {
+  height: 24.7px;
+  margin-bottom: 5px;
+}
+h3[class$="title"] {
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 1.3;
+  word-break: keep-all;
+  margin-bottom: 12px;
+  color: #3b3b3b;
+}
+div[class$="text-box"] p {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+div[class$="image-box"] {
+  width: 57.5%;
+  position: relative;
+}
+div[class$="image-box"] > img:first-child {
+  position: absolute;
+  top: -148px;
+  left: 40px;
+}
+div[class$="image-box"] > img:nth-child(2) {
+  position: absolute;
+  top: -188px;
+  left: 242px;
+}

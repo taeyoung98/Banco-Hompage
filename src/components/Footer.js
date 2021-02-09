@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return(
     <footer className="App-footer">
-      <img src="https://www.banco.id/res/img/fb_CI_W.png" alt="banco"></img>
+      <img src="https://www.banco.id/res/img/fb_CI_W.png" alt="footer__logo"></img>
       <div className="footer__welcome">Welcome to BANCO</div>
       <div className="footer__info">
         <div>(주)뱅코</div>

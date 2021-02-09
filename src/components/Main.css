@@ -3,24 +3,14 @@
 .App-main {
   background-color: burlywood;
 }
-.main__carousel img {
-  width: 100%;
+
+.App-main > div {
 }
 
-.main__acton-golf {
-  height: 300px;
-  width: 300px;
-  background-color: blue;
-  /* position: fixed;
-  top: 150px;
-  left: 500px; */
+.App-main > div:nth-child(even) {
+  background-color: white;
 }
 
-.main__ar-board-game {
-  height: 300px;
-  width: 300px;
-  background-color: pink;
-  /* position: fixed;
-  top: 300px;
-  left: 700px; */
+.App-main > div:nth-child(odd) {
+  background-color: #f5f5f5;
 }

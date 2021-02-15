@@ -1,7 +1,7 @@
-import "./Header.css";
+import './header.css';
 
-export const Header = () => {
-  return(
+const Header = () => {
+  return (
     <header className="App-header">
       <div className="navigation">
         <div className="navigation__business">BUSINESS</div>
@@ -12,4 +12,6 @@ export const Header = () => {
       </div>
     </header>
   );
-}
+};
+
+export default Header;

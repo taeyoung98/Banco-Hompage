@@ -4,8 +4,6 @@ import ActionGolf from './Main/ActionGolf';
 import Seungramdo from './Main/Seungramdo';
 import backgroundBanner from '../assets/background/bg-md.png';
 import Hologram from './Main/Hologram';
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
 
 function isElementUnderBottom(elem, triggerDiff) {
   const { top } = elem.getBoundingClientRect();
@@ -20,9 +18,6 @@ function isElementUnderBottom(elem, triggerDiff) {
 
 const ScrollEvent = () => {
   useEffect(() => {
-    // AOS.init();
-    // AOS.refresh();
-
     const handleScroll = () => {
       // 왼쪽
       const elemsXleft = document.querySelectorAll('.up-on-scroll__x-left');

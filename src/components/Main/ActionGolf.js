@@ -4,7 +4,7 @@ import './actionGolf.css';
 
 const ActionGolf = () => {
   return (
-    <div className="main__acton-golf">
+    <div className="main__action-golf">
       <div className="action-golf__text-box">
         <div className="action-golf__text-box-inside">
           <img
@@ -18,7 +18,6 @@ const ActionGolf = () => {
             Action Golf
           </h3>
           <p className="up-on-scroll__x-left">
-            {' '}
             3축 자이로 센서 부착으로 스윙속도 및<br />
             스윙궤적과 팔로우 각도, 골프스윙의 모션을
             <br />
@@ -35,12 +34,12 @@ const ActionGolf = () => {
       </div>
       <div className="action-golf__image-box">
         <img
-          className="up-on-scroll__y-right"
+          className="up-on-scroll__y-right action-golf__mobile"
           src={actionGolfImg1}
           alt="action-golf-1"
         />
         <img
-          className="up-on-scroll__y-right"
+          className="up-on-scroll__y-right action-golf__app-icon"
           src={actionGolfImg2}
           alt="action-golf-2"
         />

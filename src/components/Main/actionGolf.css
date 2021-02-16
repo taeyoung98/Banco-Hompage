@@ -1,0 +1,29 @@
+.action-golf__text-box {
+  width: 43%;
+  align-items: flex-end;
+}
+
+.action-golf__image-box {
+  width: 57.5%;
+}
+
+.action-golf__image-box > .action-golf__mobile {
+  position: absolute;
+  top: -148px;
+  left: 40px;
+}
+
+.action-golf__image-box > .action-golf__app-icon {
+  position: absolute;
+  top: -188px;
+  left: 242px;
+}
+
+.up-on-scroll__x-left,
+.up-on-scroll__y-right {
+  transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 1s;
+}
+
+.up-on-scroll__y-right.action-golf__app-icon {
+  transition: transform 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 1s;
+}

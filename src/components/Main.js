@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import ActionGolf from './Main/ActionGolf';
 import Seungramdo from './Main/Seungramdo';
 import backgroundBanner from '../assets/background/bg-md.png';
+import Hologram from './Main/Hologram';
 // import AOS from 'aos';
 // import 'aos/dist/aos.css';
 
@@ -101,8 +102,7 @@ const Main = () => {
     <main className="App-main">
       <ActionGolf></ActionGolf>
       <Seungramdo></Seungramdo>
-
-      <div className="main__hologram">홀로그램, vr, ar</div>
+      <Hologram></Hologram>
       <div className="main__business">
         <img src={backgroundBanner} alt="background-banner" />
       </div>

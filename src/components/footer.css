@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.App-footer {
+  height: 256.58px;
+  width: 100%;
+  background-color: #0a2e67;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 50px 10px 30px;
+}
+
+.App-footer img {
+  margin-top: 15px;
+  width: 119px;
+}
+
+.App-footer .footer__welcome {
+  margin: 10px 0 30px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.App-footer .footer__info {
+  font-weight: 400;
+  vertical-align: middle;
+  text-align: center;
+}

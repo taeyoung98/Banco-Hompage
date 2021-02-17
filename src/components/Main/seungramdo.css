@@ -15,5 +15,13 @@
 
 .up-on-scroll__y-left,
 .up-on-scroll__x-right {
-  transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 1s;
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 1.3s;
+}
+img.up-on-scroll__x-right {
+  transition-duration: 1s;
+}
+.up-on-scroll__x-right.seungramdo__description {
+  transition-duration: 1.6s;
 }

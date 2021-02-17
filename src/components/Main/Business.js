@@ -1,5 +1,5 @@
-import businessImg from '../../assets/background/bg-md.png';
 import './business.css';
+import businessImg from '../../assets/background/bg-md.png';
 
 const Business = () => {
   return (

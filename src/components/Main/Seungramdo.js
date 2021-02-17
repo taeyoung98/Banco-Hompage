@@ -1,5 +1,5 @@
+import bancoLogoImg from '../../assets/items/banco-logo.png';
 import seungramdoImg from '../../assets/items/s2-p1.png';
-import bancoLogoImg from '../../assets/items/banco_logo.png';
 import './seungramdo.css';
 
 const Seungramdo = () => {
@@ -20,7 +20,7 @@ const Seungramdo = () => {
             alt="main__logo"
           />
           <h3 className="up-on-scroll__x-right seungramdo__title">AR 승람도</h3>
-          <p className="up-on-scroll__x-right">
+          <p className="up-on-scroll__x-right seungramdo__description">
             AR기술을 보드게임에 접목하여
             <br />
             조선시대 선조들이 실제 즐겼던 승람도를 재현한 게임

@@ -2,7 +2,7 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <footer className="App-footer">
+    <footer className="App-footer up-on-scroll__y-bottom">
       <img
         src="https://www.banco.id/res/img/fb_CI_W.png"
         alt="footer__logo"

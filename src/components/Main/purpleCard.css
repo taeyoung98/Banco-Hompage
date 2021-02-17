@@ -1,11 +1,11 @@
 .purple-card__text-box {
-  width: 43%;
+  width: 45%;
   align-items: flex-end;
-  margin: -100px 0px 0px -100px;
+  margin: -55px 0px 0px -100px;
 }
 
 .purple-card__image-box {
-  width: 57.5%;
+  width: 55%;
 }
 
 .purple-card__image-box > .purple-card__card {

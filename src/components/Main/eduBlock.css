@@ -1,10 +1,10 @@
 .edu-block__text-box {
-  width: 43%;
+  width: 45%;
   align-items: flex-end;
 }
 
 .edu-block__image-box {
-  width: 57.5%;
+  width: 48%;
 }
 
 .edu-block__image-box > .edu-block__card {

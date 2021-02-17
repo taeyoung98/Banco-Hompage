@@ -2,10 +2,10 @@ import './main.css';
 import { useEffect } from 'react';
 import ActionGolf from './Main/ActionGolf';
 import Seungramdo from './Main/Seungramdo';
-import backgroundBanner from '../assets/background/bg-md.png';
 import Hologram from './Main/Hologram';
 import PurpleCard from './Main/PurpleCard';
 import EduBlock from './Main/EduBlock';
+import Business from './Main/Business';
 
 function isElementUnderBottom(elem, triggerDiff) {
   const { top } = elem.getBoundingClientRect();
@@ -113,9 +113,8 @@ const Main = () => {
       <ActionGolf></ActionGolf>
       <Seungramdo></Seungramdo>
       <Hologram></Hologram>
-      <div className="main__business">
-        <img src={backgroundBanner} alt="background-banner" />
-      </div>
+      <Business></Business>
+
       <div className="main__purple-payment">퍼플 페이먼트</div>
       <div></div>
       <PurpleCard></PurpleCard>

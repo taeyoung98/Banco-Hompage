@@ -17,7 +17,7 @@ const EduBlock = () => {
             EDU-BLOCK
           </h3>
           <p className="up-on-scroll__x-left">
-            뱅코체인을 기반으로한 자율 참여형 교육 플랫폼입니다.
+            뱅코체인을 기반으로 한 자율 참여형 교육 플랫폼입니다.
             <br />
             공교육 강화와 사교육비 절감에 효율적인 플랫폼입니다.
           </p>

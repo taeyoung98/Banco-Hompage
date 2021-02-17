@@ -1,5 +1,9 @@
 @import '~antd/dist/antd.css';
 
+body {
+  overflow-x: hidden;
+}
+
 /* <main> 태그 적용 사항 */
 .App-main > div[class^='main__'] {
   display: flex;

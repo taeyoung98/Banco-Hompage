@@ -1,10 +1,11 @@
 .hologram__text-box {
-  width: 43%;
+  width: 45%;
   align-items: flex-end;
 }
 
 .hologram__image-box {
-  width: 57.5%;
+  width: 55%;
+  filter: drop-shadow(-2px 18px 8.5px #cecece);
 }
 
 .hologram__image-box > img {

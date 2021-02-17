@@ -1,0 +1,14 @@
+.edu-block__text-box {
+  width: 43%;
+  align-items: flex-end;
+}
+
+.edu-block__image-box {
+  width: 57.5%;
+}
+
+.edu-block__image-box > .edu-block__card {
+  position: absolute;
+  top: -315px;
+  left: 130px;
+}

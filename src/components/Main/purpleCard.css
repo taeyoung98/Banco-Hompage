@@ -1,0 +1,21 @@
+.purple-card__text-box {
+  width: 43%;
+  align-items: flex-end;
+  margin: -100px 0px 0px -100px;
+}
+
+.purple-card__image-box {
+  width: 57.5%;
+}
+
+.purple-card__image-box > .purple-card__card {
+  position: absolute;
+  top: 25px;
+  left: 122px;
+}
+
+.purple-card__image-box > .purple-card__mobile {
+  position: absolute;
+  top: -144px;
+  left: 400px;
+}

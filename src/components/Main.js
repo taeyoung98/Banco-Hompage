@@ -2,8 +2,8 @@ import './main.css';
 import { useEffect } from 'react';
 import ActionGolf from './Main/ActionGolf';
 import Seungramdo from './Main/Seungramdo';
-import backgroundBanner from '../assets/background/bg-md.png';
 import Hologram from './Main/Hologram';
+import backgroundBanner from '../assets/background/bg-md.png';
 
 function isElementUnderBottom(elem, triggerDiff) {
   const { top } = elem.getBoundingClientRect();
@@ -27,7 +27,7 @@ const ScrollEvent = () => {
         if (isElementUnderBottom(elem, -100)) {
           //true = 스크린 아래
           elem.style.opacity = '0';
-          elem.style.transform = 'translateX(-70px)';
+          elem.style.transform = 'translateX(-100px)';
         } else {
           //false = 스크린 위
           elem.style.opacity = '1';
@@ -43,7 +43,7 @@ const ScrollEvent = () => {
         if (isElementUnderBottom(elem, -100)) {
           //true = 스크린 아래
           elem.style.opacity = '0';
-          elem.style.transform = 'translateX(70px)';
+          elem.style.transform = 'translateX(100px)';
         } else {
           //false = 스크린 위
           elem.style.opacity = '1';
@@ -61,7 +61,7 @@ const ScrollEvent = () => {
         if (isElementUnderBottom(elem, -100)) {
           //true = 스크린 아래
           elem.style.opacity = '0';
-          elem.style.transform = 'translate(70px, 70px)';
+          elem.style.transform = 'translate(100px, 100px)';
         } else {
           //false = 스크린 위
           elem.style.opacity = '1';
@@ -77,7 +77,7 @@ const ScrollEvent = () => {
         if (isElementUnderBottom(elem, -100)) {
           //true = 스크린 아래
           elem.style.opacity = '0';
-          elem.style.transform = 'translate(-70px, 70px)';
+          elem.style.transform = 'translate(-100px, 100px)';
         } else {
           //false = 스크린 위
           elem.style.opacity = '1';

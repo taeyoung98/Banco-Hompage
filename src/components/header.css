@@ -5,10 +5,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   position: fixed;
   z-index: 10;
 }
+
 .App-header .navigation {
   display: flex;
   justify-content: space-between;
@@ -19,4 +19,15 @@
 
 .navigation .navigation__logo img {
   max-width: 119px;
+}
+
+.navigation .navigation__business,
+.navigation .navigation__banco {
+  width: 70px;
+}
+
+.navigation__business a,
+.navigation__banco a {
+  color: white;
+  letter-spacing: 0.025em;
 }

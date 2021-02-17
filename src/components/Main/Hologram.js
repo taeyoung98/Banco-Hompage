@@ -1,3 +1,6 @@
+import bancoLogoImg from '../../assets/items/banco-logo.png';
+import hologramImg from '../../assets/items/s3-p1.png';
+
 const Hologram = () => {
   return (
     <div className="main__hologram">
@@ -5,7 +8,7 @@ const Hologram = () => {
         <div className="hologram__text-box-inside">
           <img
             className="up-on-scroll__x-left"
-            src="https://www.banco.id/res/img/banco_logo.png"
+            src={bancoLogoImg}
             alt="main__logo"
           />
           <h3 className="up-on-scroll__x-left hologram__title"></h3>
@@ -13,9 +16,14 @@ const Hologram = () => {
         </div>
       </div>
       <div className="hologram__image-box">
-        <img className="up-on-scroll__y-right" src={} alt="" />
+        <img
+          className="up-on-scroll__y-right"
+          src={hologramImg}
+          alt="hologram"
+        />
       </div>
     </div>
   );
 };
+
 export default Hologram;

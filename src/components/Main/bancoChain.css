@@ -1,18 +1,18 @@
-.seungramdo__text-box {
+.banco-chain__text-box {
   width: 49%;
 }
 
-.seungramdo__image-box {
+.banco-chain__image-box {
   width: 51%;
 }
 
-.seungramdo__image-box > img {
+.banco-chain__image-box > img {
   position: absolute;
   top: -207px;
   left: 410px;
 }
 
-.up-on-scroll__y-left,
+.up-on-scroll__y,
 .up-on-scroll__x-right {
   transition-property: opacity, transform;
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -21,6 +21,6 @@
 img.up-on-scroll__x-right {
   transition-duration: 1s;
 }
-.up-on-scroll__x-right.seungramdo__description {
+.up-on-scroll__x-right.banco-chain__description {
   transition-duration: 1.6s;
 }

@@ -10,7 +10,8 @@ const InitCarousel = () => {
 
   return (
     <div className="main__carousel">
-      <Carousel autoplay infinite draggable={true} autoplaySpeed={13000}>
+      <Carousel autoplay infinite draggable={true} autoplaySpeed={1000}>
+        {/* Slide 1 */}
         <div className="carousel__slide-1">
           <div className="carousel__text-box">
             <div className="carousel__text-box-inside">
@@ -40,6 +41,7 @@ const InitCarousel = () => {
           </div>
         </div>
 
+        {/* Slide 2 */}
         <div className="carousel__slide-2">
           <div className="carousel__text-box">
             <div className="carousel__text-box-inside">
@@ -54,6 +56,7 @@ const InitCarousel = () => {
           </div>
         </div>
 
+        {/* Slide 3 */}
         <div className="carousel__slide-3">
           <div className="carousel__text-box">
             <div className="carousel__text-box-inside">

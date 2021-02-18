@@ -1,0 +1,119 @@
+.purple-payment__text-box {
+  width: 46.7%;
+  align-items: flex-end;
+  padding-bottom: 82px;
+}
+.purple-payment__image-box {
+  width: 53.3%;
+}
+
+/* text box */
+.purple-payment__text-box .purple-payment__description {
+  background-color: #f5f5f5;
+  width: 454px;
+  height: 171px;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.purple-payment__description__contents {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #aaa;
+}
+
+.purple-payment__description__title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.purple-payment__description__title > p {
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.purple-payment__description__title__time > div:first-child {
+  font-size: 17px;
+  text-align: right;
+}
+
+.purple-payment__description__title__time > div:last-child {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.14;
+  letter-spacing: -0.025em;
+  text-align: right;
+}
+
+.purple-payment__text-box .purple-payment__button {
+  width: 220px;
+  height: 54px;
+  padding: 15px;
+  background: #6329e5;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+.purple-payment__button .arrow {
+  width: 54px;
+  height: 54px;
+  background: #2b1868;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.purple-payment__button .arrow::before,
+.purple-payment__button .arrow::after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 2px;
+  border-radius: 1px;
+  background: white;
+  position: absolute;
+  left: 19px;
+  transform: rotate(135deg);
+  top: 32px;
+}
+
+.purple-payment__button .arrow::before {
+  transform: rotate(135deg);
+  top: 32px;
+}
+
+.purple-payment__button .arrow::after {
+  transform: rotate(45deg);
+  top: 21px;
+}
+
+/* image box */
+.purple-payment__image-box .purple-payment__feature {
+  position: absolute;
+  top: -251px;
+  left: 141px;
+}
+
+.purple-payment__image-box > .purple-payment__machine {
+  position: absolute;
+  top: -360px;
+  left: 54px;
+}
+
+/* animation */
+.up-on-scroll__x-left,
+.up-on-scroll__y,
+.up-on-scroll__y-right {
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 1.3s;
+}
+
+.up-on-scroll__x-left.purple-payment__description {
+  transition-duration: 1.9s;
+}
+
+.up-on-scroll__x-left.purple-payment__link {
+  transition-duration: 2s;
+}

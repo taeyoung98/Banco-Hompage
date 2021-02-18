@@ -3,7 +3,9 @@ import ActionGolf from './Main/ActionGolf';
 import Seungramdo from './Main/Seungramdo';
 import Hologram from './Main/Hologram';
 import Banner from './Main/Banner';
+import PurplePayment from './Main/PurplePayment';
 import PurpleCard from './Main/PurpleCard';
+import BancoChain from './Main/BancoChain';
 import EduBlock from './Main/EduBlock';
 import './main.css';
 
@@ -88,15 +90,15 @@ const Main = () => {
 
   return (
     <main className="App-main">
-      <ActionGolf></ActionGolf>
-      <Seungramdo></Seungramdo>
-      <Hologram></Hologram>
-      <Banner></Banner>
-      <div className="main__purple-payment">퍼플 페이먼트</div>
-      <div></div>
-      <PurpleCard></PurpleCard>
-      <div className="main__banco-chain">뱅코체인</div>
-      <EduBlock></EduBlock>
+      <ActionGolf />
+      <Seungramdo />
+      <Hologram />
+      <Banner />
+      <PurplePayment />
+      <div />
+      <PurpleCard />
+      <BancoChain />
+      <EduBlock />
     </main>
   );
 };

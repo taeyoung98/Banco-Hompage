@@ -33,3 +33,8 @@ img {
   line-height: 150%;
   background: transparent;
 }
+
+a,
+a:hover {
+  color: white;
+}

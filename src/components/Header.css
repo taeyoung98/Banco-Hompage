@@ -15,6 +15,7 @@
   align-items: center;
   width: 350px;
   font-size: 14px;
+  letter-spacing: 0.025em;
 }
 
 .navigation .navigation__logo img {
@@ -24,16 +25,4 @@
 .navigation .navigation__business,
 .navigation .navigation__banco {
   width: 70px;
-}
-
-.navigation__business a,
-.navigation__banco a {
-  color: white;
-  letter-spacing: 0.025em;
-}
-
-.navigation__business a:hover,
-.navigation__banco a:hover {
-  /* color: rgb(122, 65, 255); */
-  color: white;
 }

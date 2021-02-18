@@ -1,3 +1,4 @@
+import bancoLogoImg from '../../assets/items/banco-logo.png';
 import eduBlockImg from '../../assets/items/s7-p1.png';
 import './eduBlock.css';
 
@@ -8,7 +9,7 @@ const EduBlock = () => {
         <div className="edu-block__text-box-inside">
           <img
             className="up-on-scroll__x-left"
-            src="https://www.banco.id/res/img/banco_logo.png"
+            src={bancoLogoImg}
             alt="main__logo"
           />
           <h3 className="up-on-scroll__x-left edu-block__title">
@@ -16,7 +17,7 @@ const EduBlock = () => {
             <br />
             EDU-BLOCK
           </h3>
-          <p className="up-on-scroll__x-left">
+          <p className="up-on-scroll__x-left edu-block__description">
             뱅코체인을 기반으로 한 자율 참여형 교육 플랫폼입니다.
             <br />
             공교육 강화와 사교육비 절감에 효율적인 플랫폼입니다.
@@ -24,11 +25,7 @@ const EduBlock = () => {
         </div>
       </div>
       <div className="edu-block__image-box">
-        <img
-          className="up-on-scroll__y-bottom edu-block__card"
-          src={eduBlockImg}
-          alt="edu-block"
-        />
+        <img className="up-on-scroll__y" src={eduBlockImg} alt="edu-block" />
       </div>
     </div>
   );

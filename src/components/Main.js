@@ -1,17 +1,22 @@
-import './main.css';
 import { useEffect } from 'react';
 import ActionGolf from './Main/ActionGolf';
 import Seungramdo from './Main/Seungramdo';
 import Hologram from './Main/Hologram';
-import Business from './Main/Business';
+import Banner from './Main/Banner';
 import PurpleCard from './Main/PurpleCard';
 import EduBlock from './Main/EduBlock';
+import './main.css';
 
 function isElementUnderBottom(elem, triggerDiff) {
   const { top } = elem.getBoundingClientRect();
   const { innerHeight } = window;
   return top > innerHeight + (triggerDiff || 0);
 }
+
+const componentTop = (elem) => {
+  const { top } = elem.getBoundingClientRect();
+  return top;
+};
 
 const ScrollEvent = () => {
   useEffect(() => {
@@ -43,7 +48,7 @@ const ScrollEvent = () => {
       // 아래
       const elemsYbottom = document.querySelectorAll('.up-on-scroll__y');
       elemsYbottom.forEach((elem) => {
-        if (isElementUnderBottom(elem, -100)) {
+        if (isElementUnderBottom(elem, -20)) {
           elem.style.opacity = '0';
           elem.style.transform = 'translateY(100px)';
         } else {
@@ -75,17 +80,18 @@ const ScrollEvent = () => {
       });
     };
     window.addEventListener('scroll', handleScroll);
-  });
+  }, []);
 };
 
 const Main = () => {
   ScrollEvent();
+
   return (
     <main className="App-main">
       <ActionGolf></ActionGolf>
       <Seungramdo></Seungramdo>
       <Hologram></Hologram>
-      <Business></Business>
+      <Banner></Banner>
       <div className="main__purple-payment">퍼플 페이먼트</div>
       <div></div>
       <PurpleCard></PurpleCard>

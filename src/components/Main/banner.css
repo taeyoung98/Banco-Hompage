@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.main__banner > .banner__background {
+  height: 400px;
+}
+
+.banner__background {
+  position: relative;
+}
+
+.banner__text-box-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner__text-box-container .banner__title {
+  font-size: 42px;
+  font-weight: 500;
+  font-family: 'Poppins';
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: white;
+}
+
+.banner__text-box-container .banner__wordmark {
+  width: 110px;
+  margin: 0px 0px 10px;
+}
+
+.banner__text-box-container .banner__symbol {
+  height: 37px;
+  margin: 50px 0px 10px;
+}
+
+.up-on-scroll__y {
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 1s;
+}
+.up-on-scroll__y.banner__title {
+  transition-duration: 1.3s;
+}
+.up-on-scroll__y.banner__symbol {
+  transition-duration: 1.6s;
+}

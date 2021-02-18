@@ -19,3 +19,19 @@
   top: -144px;
   left: 400px;
 }
+
+.up-on-scroll__x-left,
+.up-on-scroll__y-right {
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 1s;
+}
+
+.up-on-scroll__x-left.purple-card__title,
+.up-on-scroll__y-right.purple-card__mobile {
+  transition-duration: 1.3s;
+}
+
+.up-on-scroll__x-left.purple-card__description {
+  transition-duration: 1.6s;
+}

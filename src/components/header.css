@@ -31,3 +31,9 @@
   color: white;
   letter-spacing: 0.025em;
 }
+
+.navigation__business a:hover,
+.navigation__banco a:hover {
+  /* color: rgb(122, 65, 255); */
+  color: white;
+}

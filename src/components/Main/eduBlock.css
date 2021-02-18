@@ -1,14 +1,29 @@
 .edu-block__text-box {
-  width: 45%;
+  width: 46.7%;
   align-items: flex-end;
 }
 
 .edu-block__image-box {
-  width: 48%;
+  width: 53.3%;
 }
 
-.edu-block__image-box > .edu-block__card {
+.edu-block__image-box > img {
   position: absolute;
-  top: -315px;
+  top: -200px;
   left: 130px;
+}
+
+.up-on-scroll__x-left,
+.up-on-scroll__y {
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 1.3s;
+}
+
+.up-on-scroll__x-left.edu-block__title {
+  transition-duration: 1s;
+}
+
+.up-on-scroll__x-left.edu-block__description {
+  transition-duration: 1.6s;
 }

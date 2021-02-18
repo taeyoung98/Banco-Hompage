@@ -1,3 +1,4 @@
+import bancoLogoImg from '../../assets/items/banco-logo.png';
 import purpleCardImg1 from '../../assets/items/s5-p1.png';
 import purpleCardImg2 from '../../assets/items/s5-p2.png';
 import './purpleCard.css';
@@ -9,7 +10,7 @@ const PurpleCard = () => {
         <div className="purple-card__text-box-inside">
           <img
             className="up-on-scroll__x-left"
-            src="https://www.banco.id/res/img/banco_logo.png"
+            src={bancoLogoImg}
             alt="main__logo"
           />
           <h3 className="up-on-scroll__x-left purple-card__title">
@@ -17,7 +18,7 @@ const PurpleCard = () => {
             <br />
             Purple Card
           </h3>
-          <p className="up-on-scroll__x-left">
+          <p className="up-on-scroll__x-left purple-card__description">
             NFC를 지원하며 IC칩을 내장한
             <br />
             카드형 하드웨어 콜드월렛입니다.

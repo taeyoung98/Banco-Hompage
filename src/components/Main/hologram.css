@@ -1,19 +1,34 @@
 .hologram__text-box {
-  width: 45%;
+  width: 44.2%;
   align-items: flex-end;
 }
 
 .hologram__image-box {
-  width: 55%;
+  width: 55.8%;
   filter: drop-shadow(-2px 18px 8.5px #cecece);
 }
 
 .hologram__image-box > img {
   position: absolute;
-  top: -193px;
-  left: 100px;
+  top: -185px;
+  left: 113px;
 }
 
 .up-on-scroll__y {
   transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 1s;
+}
+
+.up-on-scroll__x-left,
+.up-on-scroll__y {
+  transition-property: opacity, transform;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 1.3s;
+}
+
+img.up-on-scroll__x-left {
+  transition-duration: 1s;
+}
+
+.up-on-scroll__x-left.hologram__description {
+  transition-duration: 1.6s;
 }

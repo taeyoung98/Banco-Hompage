@@ -1,5 +1,5 @@
-import './footer.css';
 import bancoLogo2 from '../assets/items/banco-logo2.png';
+import './footer.css';
 
 const Footer = () => {
   return (

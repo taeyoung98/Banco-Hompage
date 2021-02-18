@@ -1,10 +1,9 @@
-import './carousel.css';
-import { useEffect } from 'react';
 import { Carousel } from 'antd';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import bancoLogoWhite from '../../assets/items/banco-logo_white.png';
 import bancoLogo3 from '../../assets/items/banco-logo3.png';
+import './carousel.css';
 
 const InitCarousel = () => {
   AOS.init();
@@ -40,6 +39,7 @@ const InitCarousel = () => {
             </div>
           </div>
         </div>
+
         <div className="carousel__slide-2">
           <div className="carousel__text-box">
             <div className="carousel__text-box-inside">
@@ -53,6 +53,7 @@ const InitCarousel = () => {
             </div>
           </div>
         </div>
+
         <div className="carousel__slide-3">
           <div className="carousel__text-box">
             <div className="carousel__text-box-inside">

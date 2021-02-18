@@ -12,10 +12,10 @@ https://www.banco.id/
 - [x] Carousel
 - [x] Action Golf
 - [x] 승람도
-- [ ] 홀로그램, VR, AR
-- [ ] Banner
+- [x] 홀로그램, VR, AR
+- [x] Banner
 - [ ] Purple Payment
-- [ ] 보라빛 Purple Card
+- [x] 보라빛 Purple Card
 - [ ] BANCO CHAIN
 - [ ] EDU-BLOCK
 - [ ] Footer (todo: scroll event animation)s

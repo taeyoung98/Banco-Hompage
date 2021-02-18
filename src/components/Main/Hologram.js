@@ -1,6 +1,6 @@
-import './hologram.css';
 import bancoLogoImg from '../../assets/items/banco-logo.png';
 import hologramImg from '../../assets/items/s3-p1.png';
+import './hologram.css';
 
 const Hologram = () => {
   return (
@@ -15,7 +15,7 @@ const Hologram = () => {
           <h3 className="up-on-scroll__x-left hologram__title">
             홀로그램, VR, AR
           </h3>
-          <p className="up-on-scroll__x-left">
+          <p className="up-on-scroll__x-left hologram__description">
             빛의 간접성을 이용해 입체정보를 기록하고,
             <br />
             복원을 통해 실제 사물과 동일한 3차원 입체효과를

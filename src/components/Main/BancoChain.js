@@ -12,6 +12,7 @@ const BancoChain = () => {
           alt="banco-chain"
         />
       </div>
+      <div className="banco-chain__empty-box" />
       <div className="banco-chain__text-box">
         <div className="banco-chain__text-box-inside">
           <img
@@ -32,7 +33,7 @@ const BancoChain = () => {
             <br />
             * 뱅코체인을 이용한 개발도상국
             <br />
-            공공업무를 위한 블록체인
+            &nbsp;&nbsp;&nbsp;공공업무를 위한 블록체인
             <br />* 인공지능을 이용한 암호화폐 분석 및 지표수립
           </p>
         </div>

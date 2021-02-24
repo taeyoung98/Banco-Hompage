@@ -3,6 +3,10 @@ import seungramdoImg from '../../assets/items/s2-p1.png';
 import './seungramdo.css';
 
 const Seungramdo = () => {
+  if (navigator.userAgent.indexOf('Safari') !== -1) {
+    console.log('fool safari');
+  }
+
   return (
     <div className="main__seungramdo">
       <div className="seungramdo__image-box">
@@ -12,6 +16,7 @@ const Seungramdo = () => {
           alt="seungramdo"
         />
       </div>
+      <div className="seungramdo__empty-box" />
       <div className="seungramdo__text-box">
         <div className="seungramdo__text-box-inside">
           <img

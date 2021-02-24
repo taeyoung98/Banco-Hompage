@@ -9,18 +9,13 @@ import BancoChain from './Main/BancoChain';
 import EduBlock from './Main/EduBlock';
 import './main.css';
 
-function isElementUnderBottom(elem, triggerDiff) {
+const isElementUnderBottom = (elem, triggerDiff) => {
   const { top } = elem.getBoundingClientRect();
   const { innerHeight } = window;
   return top > innerHeight + (triggerDiff || 0);
-}
-
-const componentTop = (elem) => {
-  const { top } = elem.getBoundingClientRect();
-  return top;
 };
 
-const ScrollEvent = () => {
+const ScrollAnimation = () => {
   useEffect(() => {
     const handleScroll = () => {
       // 왼쪽
@@ -86,7 +81,7 @@ const ScrollEvent = () => {
 };
 
 const Main = () => {
-  ScrollEvent();
+  ScrollAnimation();
 
   return (
     <main className="App-main">

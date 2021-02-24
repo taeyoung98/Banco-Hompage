@@ -5,6 +5,7 @@
 }
 .purple-payment__image-box {
   width: 53.3%;
+  position: relative;
 }
 
 /* text box */
@@ -53,8 +54,8 @@
   background: #6329e5;
   font-size: 16px;
   margin-top: 25px;
+  position: relative;
 }
-
 .purple-payment__button .arrow {
   width: 54px;
   height: 54px;
@@ -63,7 +64,6 @@
   top: 0;
   right: 0;
 }
-
 .purple-payment__button .arrow::before,
 .purple-payment__button .arrow::after {
   content: '';
@@ -77,12 +77,6 @@
   transform: rotate(135deg);
   top: 32px;
 }
-
-.purple-payment__button .arrow::before {
-  transform: rotate(135deg);
-  top: 32px;
-}
-
 .purple-payment__button .arrow::after {
   transform: rotate(45deg);
   top: 21px;
@@ -91,13 +85,13 @@
 /* image box */
 .purple-payment__image-box .purple-payment__feature {
   position: absolute;
-  top: -251px;
+  top: -271px;
   left: 141px;
 }
 
 .purple-payment__image-box > .purple-payment__machine {
   position: absolute;
-  top: -360px;
+  top: -380px;
   left: 54px;
 }
 
@@ -116,4 +110,58 @@
 
 .up-on-scroll__x-left.purple-payment__link {
   transition-duration: 2s;
+}
+
+/* 스마트폰 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) and (orientation: portrait) {
+  /* text box */
+
+  .purple-payment__text-box .purple-payment__description {
+    width: 100%;
+  }
+
+  .purple-payment__description__contents {
+    font-size: 14px;
+  }
+
+  .purple-payment__description__title__time > div:first-child {
+    font-size: 15px;
+  }
+
+  .purple-payment__description__title__time > div:last-child {
+    font-size: 18px;
+  }
+
+  .purple-payment__text-box .purple-payment__button {
+    width: 180px;
+    height: 45px;
+    padding: 11px;
+    font-size: 14px;
+  }
+  .purple-payment__button .arrow {
+    width: 45px;
+    height: 45px;
+  }
+  .purple-payment__button .arrow::before,
+  .purple-payment__button .arrow::after {
+    width: 13px;
+    height: 1.5px;
+    left: 18px;
+    top: 26px;
+  }
+  .purple-payment__button .arrow::after {
+    top: 17px;
+  }
+
+  /* image box */
+  .purple-payment__image-box .purple-payment__feature {
+    width: 130%;
+    top: 0;
+    left: -15%;
+  }
+  .purple-payment__image-box > .purple-payment__machine {
+    width: 130%;
+    top: 0;
+    left: -25%;
+  }
 }

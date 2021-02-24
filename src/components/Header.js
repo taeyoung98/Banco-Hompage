@@ -12,8 +12,6 @@ const ScrollNavigation = () => {
 
     setActionGolfTop(actionGolfElement.offsetTop);
     setBannerTop(bannerElement.offsetTop);
-
-    return { actionGolfTop, bannerTop };
   }, []);
 
   const scrollToTop = () => {

@@ -5,6 +5,7 @@
 
 .edu-block__image-box {
   width: 53.3%;
+  position: relative;
 }
 
 .edu-block__image-box > img {
@@ -26,4 +27,14 @@
 
 .up-on-scroll__x-left.edu-block__description {
   transition-duration: 1.6s;
+}
+
+/* 스마트폰 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) and (orientation: portrait) {
+  .edu-block__image-box > img {
+    /* position: static; */
+    width: 150%;
+    top: 0px;
+    left: -25%;
+  }
 }

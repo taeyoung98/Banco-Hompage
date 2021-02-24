@@ -4,20 +4,18 @@
 
 https://www.banco.id/
 
-<br>
-
 ## Components
 
 - [x] Header
 - [x] Carousel
 - [x] Action Golf
 - [x] 승람도
-- [x] 홀로그램, VR, AR _by Minju_
-- [x] Banner _by Minju_
-- [x] Purple Payment _by Taeyoung_
-- [x] 보라빛 Purple Card _by Minju_
-- [x] BANCO CHAIN _by Taeyoung_
-- [x] EDU-BLOCK _by Minju_
+- [x] 홀로그램, VR, AR &emsp;&emsp;_by Minju_
+- [x] Banner &emsp;_by Minju_
+- [x] Purple Payment &emsp;_by Taeyoung_
+- [x] 보라빛 Purple Card &emsp;_by Minju_
+- [x] BANCO CHAIN &emsp;_by Taeyoung_
+- [x] EDU-BLOCK &emsp;_by Minju_
 - [x] Footer
 
 ## ETC
@@ -29,8 +27,6 @@ https://www.banco.id/
 - [ ] 화질 개선
 - [ ] 이미지 외부 저장소
 - [ ] Domain (서버 변경)
-
-<br>
 
 #### by Minju & Taeyoung
 

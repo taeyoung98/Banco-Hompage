@@ -26,9 +26,7 @@ const InitCarousel = () => {
                 data-aos="fade-up"
                 data-aos-duration="1300"
                 data-aos-easing="ease-out-back"
-              >
-                Creates Value through technology and convergence
-              </h2>
+              ></h2>
               <h2
                 className="carousel__title-kor"
                 data-aos="fade-up"

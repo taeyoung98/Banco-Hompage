@@ -5,12 +5,12 @@
 }
 
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
-  height: 100%;
   font: 14px/1.5 'Noto Sans KR', sans-serif;
-  /* font-family: 'Times New Roman', Times, serif; */
   color: #3b3b3b;
+  overflow-x: hidden;
 }
 
 html,
@@ -37,4 +37,8 @@ img {
 a,
 a:hover {
   color: white;
+}
+
+/* 스마트폰 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) and (orientation: portrait) {
 }

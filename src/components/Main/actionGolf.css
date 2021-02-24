@@ -5,6 +5,7 @@
 
 .action-golf__image-box {
   width: 57.5%;
+  position: relative;
 }
 
 .action-golf__image-box > .action-golf__mobile {
@@ -34,4 +35,18 @@
 .up-on-scroll__x-left.action-golf__description,
 .up-on-scroll__y-right.action-golf__app-icon {
   transition-duration: 1.6s;
+}
+
+/* 스마트폰 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) and (orientation: portrait) {
+  .action-golf__image-box > .action-golf__mobile {
+    width: 140%;
+    top: 0;
+    left: -36%;
+  }
+  .action-golf__image-box > .action-golf__app-icon {
+    width: 120%;
+    top: 0;
+    left: 25%;
+  }
 }

@@ -8,6 +8,8 @@
 .main__carousel .carousel__slide-2,
 .main__carousel .carousel__slide-3 {
   height: 720px;
+  background-size: cover;
+  background-position: center center;
 }
 .main__carousel .carousel__slide-1 {
   background-image: url('../../assets/background/bg1.png');
@@ -19,7 +21,7 @@
   background-image: url('../../assets/background/bg3.png');
 }
 
-.carousel__text-box {
+.main__carousel .carousel__text-box {
   height: 720px;
   display: flex;
   justify-content: center;
@@ -28,7 +30,6 @@
 .carousel__text-box .carousel__text-box-inside {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   text-align: center;
 }
@@ -45,6 +46,7 @@
 .carousel__slide-3 img {
   width: 156px;
 }
+
 .carousel__text-box .carousel__title-eng {
   font-size: 60px;
   font-weight: bold;
@@ -53,6 +55,78 @@
 .carousel__text-box .carousel__title-kor {
   font-family: 'Poppins';
   font-size: 42px;
-  font-weight: 5 00;
-  margin: 0;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.carousel__slide-1 .carousel__title-eng::after {
+  content: 'Creates Value through technology and convergence';
+}
+
+/* 스마트폰 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) and (orientation: portrait) {
+  .main__carousel .carousel__slide-1,
+  .main__carousel .carousel__slide-2,
+  .main__carousel .carousel__slide-3 {
+    height: 400px;
+    width: 100%;
+  }
+
+  .main__carousel .carousel__text-box {
+    height: 400px;
+  }
+
+  .carousel__text-box img {
+    margin-bottom: 15px;
+  }
+  .carousel__slide-1 img {
+    width: 190px;
+  }
+  .carousel__slide-2 img {
+    width: 134px;
+  }
+  .carousel__slide-3 img {
+    width: 106px;
+  }
+
+  .carousel__text-box .carousel__title-eng {
+    font-size: 22px;
+  }
+  .carousel__text-box .carousel__title-kor {
+    font-size: 14px;
+  }
+  .carousel__slide-1 .carousel__title-eng::after {
+    content: 'Creates Value through\Atechnology and convergence';
+    white-space: pre;
+  }
+}
+
+/* 데스크탑 좁은 창 560~ */
+@media only screen and (min-width: 500px) and (max-width: 810px) {
+  body {
+    min-width: 580px;
+  }
+  .carousel__text-box .carousel__title-eng {
+    font-size: 40px;
+  }
+  .carousel__text-box .carousel__title-kor {
+    font-size: 22px;
+  }
+  .carousel__slide-1 .carousel__title-eng::after {
+    content: 'Creates Value through\Atechnology and convergence';
+    white-space: pre;
+  }
+}
+
+/* 데스크탑 중간 창 */
+@media only screen and (min-width: 811px) and (max-width: 1100px) {
+  .carousel__text-box .carousel__title-eng {
+    font-size: 50px;
+  }
+  .carousel__text-box .carousel__title-kor {
+    font-size: 32px;
+  }
+  .carousel__slide-1 .carousel__title-eng::after {
+    content: 'Creates Value through\Atechnology and convergence';
+    white-space: pre;
+  }
 }

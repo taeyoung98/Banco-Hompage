@@ -28,3 +28,22 @@
   font-weight: 400;
   text-align: center;
 }
+
+/* 스마트폰 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) and (orientation: portrait) {
+  .App-footer {
+    height: 220px;
+  }
+  .App-footer img {
+    margin-top: 0px;
+    width: 100px;
+  }
+  .App-footer .footer__welcome {
+    margin: 5px 0 25px;
+    font-size: 12px;
+  }
+  .App-footer .footer__info {
+    margin-bottom: 20px;
+    font-size: 11px;
+  }
+}

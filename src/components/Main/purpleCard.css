@@ -1,22 +1,22 @@
 .purple-card__text-box {
-  width: 45%;
+  width: 42%;
   align-items: flex-end;
-  margin: -55px 0px 0px -100px;
 }
 
 .purple-card__image-box {
-  width: 55%;
+  width: 58%;
+  position: relative;
 }
 
 .purple-card__image-box > .purple-card__card {
   position: absolute;
-  top: 25px;
-  left: 122px;
+  top: -35px;
+  left: 135px;
 }
 
 .purple-card__image-box > .purple-card__mobile {
   position: absolute;
-  top: -144px;
+  top: -205px;
   left: 400px;
 }
 
@@ -34,4 +34,18 @@
 
 .up-on-scroll__x-left.purple-card__description {
   transition-duration: 1.6s;
+}
+
+/* 스마트폰 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) and (orientation: portrait) {
+  .purple-card__image-box > .purple-card__card {
+    width: 80%;
+    top: 100px;
+    left: -25%;
+  }
+  .purple-card__image-box > .purple-card__mobile {
+    width: 80%;
+    top: 0;
+    left: 38%;
+  }
 }

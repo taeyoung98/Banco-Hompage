@@ -13,7 +13,9 @@ const Hologram = () => {
             alt="main__logo"
           />
           <h3 className="up-on-scroll__x-left hologram__title">
-            홀로그램, VR, AR
+            홀로그램
+            <br />
+            HOLOGRAM, VR, AR
           </h3>
           <p className="up-on-scroll__x-left hologram__description">
             빛의 간접성을 이용해 입체정보를 기록하고,

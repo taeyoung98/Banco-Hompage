@@ -5,7 +5,9 @@
 
 .hologram__image-box {
   width: 55.8%;
-  filter: drop-shadow(-2px 18px 8.5px #cecece);
+  position: relative;
+  filter: drop-shadow(0px 14px 16px #b6b6b6);
+  z-index: 10;
 }
 
 .hologram__image-box > img {
@@ -31,4 +33,15 @@ img.up-on-scroll__x-left {
 
 .up-on-scroll__x-left.hologram__description {
   transition-duration: 1.6s;
+}
+
+/* 스마트폰 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) and (orientation: portrait),
+  only screen and (min-device-width: 568px) and (max-device-width: 900px) and (orientation: landscape) {
+  .hologram__image-box > img {
+    /* position: static; */
+    width: 160%;
+    top: 0;
+    left: -30%;
+  }
 }

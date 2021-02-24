@@ -14,6 +14,7 @@
   justify-content: space-between;
   align-items: center;
   width: 350px;
+  /* width: 20%; */
   font-size: 14px;
   letter-spacing: 0.025em;
 }
@@ -25,4 +26,14 @@
 .navigation .navigation__business,
 .navigation .navigation__banco {
   width: 70px;
+}
+
+/* 스마트폰 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) and (orientation: portrait) {
+  .App-header .navigation {
+    width: 300px;
+  }
+  .navigation .navigation__logo img {
+    max-width: 100px;
+  }
 }

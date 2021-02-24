@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Header from './components/Header';
 import InitCarousel from './components/Main/Carousel';
 import Main from './components/Main';

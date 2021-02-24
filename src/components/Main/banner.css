@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 .main__banner > .banner__background {
+  width: 100%;
   height: 400px;
-}
-
-.banner__background {
   position: relative;
 }
 
@@ -46,4 +44,23 @@
 }
 .up-on-scroll__y.banner__symbol {
   transition-duration: 1.6s;
+}
+
+/* 스마트폰 */
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) and (orientation: portrait) {
+  .main__banner > .banner__background {
+    height: 280px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .banner__text-box-container .banner__title {
+    font-size: 0.92em;
+  }
+  .banner__text-box-container .banner__wordmark {
+    width: 85px;
+  }
+  .banner__text-box-container .banner__symbol {
+    height: 25px;
+    margin: 35px 0px 10px;
+  }
 }

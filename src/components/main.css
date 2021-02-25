@@ -2,6 +2,7 @@
 
 .App-main {
   width: 100%;
+  overflow: hidden;
 }
 
 /* <main> 태그 적용 사항 */
